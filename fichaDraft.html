@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Herbario</title>
+    <link rel="stylesheet" href="styleDraft.css">
+</head>
+<body>
+    <div class="ficha">
+<!-- SECCIÓN A (ENCABEZADO) -->
+<div class="seccionA">
+    <div class="logoUNAM">
+        <img src="UNAM.png" alt="Logo UNAM">
+</div>
+    <div class="logoFA">
+        <img src="FA.png" alt="Logo FA">
+</div>
+<div class="encabezado">
+    <label id="encabezado">Herbario De Plantas Ornamentales 'Carlos Contreras Pagés'<br>Facultad De Arquitectura UNAM</label>
+</div>
+    <div class="logoHEFA">
+        <img src="HEFA.png" alt="Logo HeFA">
+</div>
+</div>
+<!-- SECCIÓN B (IDENTIFICACIÓN) -->
+<div class="seccionB">
+    <div class="fila">
+        <label for="familia" style="width: 9mm;" id="familia">Familia:</label>
+        <input type="text" id="familia2" style="width: 26mm;" class="input-text">
+        <label for="determinador" style="width: 16mm;" id="determinador">Determinador:</label>
+        <input type="text" style="width: 40mm;" id="determinador2" class="input-text">
+        <label for="fecha" style="width: 8mm;" id="fecha">Fecha:</label>
+        <input type="text" style="width: 13mm;" id="fecha2" class="input-text">
+    </div>
+    <div class="fila">
+        <label for="nombre-cientifico" style="width: 21mm;" id="nombreCientifico">Nombre científico:</label>
+        <input type="text" style="width: 96mm;" id="nombreCientifico2" class="input-text nombre-cientifico">
+    </div>
+</div>
+<!-- SECCIÓN C (LOCALIZACION Y MEDIDAS) -->
+<div class="seccionC">
+    <div class="filaC">
+        <input type="text" style="width: 10mm;" id="pais" class="input-text">
+        <input type="text" style="width: 30mm;" id="ciudad" class="input-text">
+        <label for="municipio" style="width: 13mm;" id="municipio">Municipio:</label>
+        <input type="text" style="width: 64mm;" id="municipio2" class="input-text">
+
+        
+        <label for="localidad" style="width: 12mm;" id="localidad">Localidad:</label>
+        <input type="text" style="width: 103mm;" id="localidad2" class="input-text">
+
+        
+        <label for="latitud" style="width: 9mm;"id="latitud">Latitud:</label>
+        <input type="text" style="width: 20mm;" id="latitud2" class="input-text">
+        <label for="longitud" style="width: 11mm;"id="longitud">Longitud:</label>
+        <input type="text" style="width: 20mm;" id="longitud2" class="input-text">
+        <label for="elevacion" style="width: 12mm;" id="elevacion">Elevación:</label>
+        <input type="text" style="width: 8mm;" id="elevacion2" class="input-text">
+        <label for="profundidad" style="width: 15mm;" id="profundidad">Profundidad:</label>
+        <input type="text" style="width: 15mm;" id="profundidad2" class="input-text">
+    </div>
+</div>
+<!-- SECCIÓN D (DATOS DE COLECTA) -->
+<div class="seccionD">
+    <div class="filaD">
+        <label for="fechaColecta" style="width: 28mm;" id="fechaColecta">Fecha y hora de colecta:</label>
+        <input type="text" style="width: 21mm;" id="fechaColecta2" class="input-text">
+        <label for="duplicado" style="width: 13mm;" id="duplicado">Duplicado:</label>
+        <input type="text" style="width: 5mm;" id="duplicado2" class="input-text">
+        <label for="seccion" style="width: 11mm;" id="seccion">Sección:</label>
+        <input type="text" style="width: 5mm;" id="seccion2" class="input-text">
+
+        <label for="colector" style="width: 11mm;" id="colector">Colector:</label>
+        <input type="text" style="width: 77mm;" id="colector2" class="input-text">
+        <label for="numColecta" style="width: 17mm;" id="numColecta">No. de colecta:</label>
+        <input type="text" style="width: 5mm;" id="numColecta2" class="input-text">
+    </div>
+</div>
+<!-- SECCIÓN E (DESCRIPCIÓN) -->
+<div class="seccionE">
+    <div class="filaE">
+        <label for="forma-vida" style="width: 17mm;" id="formaVida">Forma de vida:</label>
+        <input type="text" style="width: 97mm;" id="formaVida2" class="input-text">
+
+        <label for="habitat" style="width: 9mm;" id="habitat">Hábitat:</label>
+        <input type="text" style="width: 109mm;" id="habitat2" class="input-text">
+
+        <label for="asociacionVegetal" style="width: 22mm;" id="asociacionVegetal">Asociación vegetal:</label>
+        <input type="text" style="width: 97mm;" id="asociacionVegetal2" class="input-text">
+
+        <label for="caracteristicasEjemplar" style="width: 32mm;" id="caracteristicasEjemplar">Características del ejemplar:</label>
+        <input type="text" style="width: 85mm;" id="caracteristicasEjemplar2" class="input-text">
+
+        <input type="text" style="width: 120mm;" id="caracteristicasHoja" class="input-text">
+
+        <input type="text" style="width: 120mm;" id="caracteristicasTextura" class="input-text">
+
+        <input type="text" style="width: 120mm;" id="caracteristicasInflorescencia" class="input-text">
+
+        <input type="text" style="width: 120mm;" id="caracteristicasAroma" class="input-text">
+
+        <input type="text" style="width: 120mm;" id="caracteristicasFruto" class="input-text">
+
+        <label for="nombreComun" style="width: 18mm;" id="nombreComun">Nombre común:</label>
+        <input type="text" style="width: 55mm;" id="nombreComun2">
+        <label for="h" style="width: 2mm;" id="h">h</label>
+        <div for="h" style="width: 5mm; height: 4mm; border: 1pt solid black; background-color: aquamarine;"id="h2"></div>
+        <label for="f" style="width: 2mm;" id="f">f</label>
+        <div for="f" style="width: 5mm; height: 4mm; border: 1pt solid black; background-color: aquamarine;"id="f2"></div>
+        <label for="fr" style="width: 2mm;;" id="fr">fr</label>
+        <div for="fr" style="width: 5mm; height: 4mm; border: 1pt solid black; background-color: aquamarine;"id="fr2"></div>
+        <label for="t" style="width: 2mm;" id="t">t</label>
+        <div for="t" style="width: 5mm; height: 4mm; border: 1pt solid black; background-color: aquamarine;"id="t2"></div>
+
+        <label for="observaciones" style="width: 18mm;" id="observaciones">Observaciones:</label>
+        <input type="text" style="width: 96mm;" id="observaciones2" class="input-text">       
+
+        <label for="colector" style="width: 11mm;" id="colectores">Colector:</label>
+        <input type="text" style="width: 53mm;" id="colectores2" class="input-text">
+        <label for="captura" style="width: 11mm;" id="captura">Captura:</label>
+        <input type="text" style="width: 41mm;" id="captura2" class="input-text">
+    </div>
+</div>
+</div>
+</body>
+</html>

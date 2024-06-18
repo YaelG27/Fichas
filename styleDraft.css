@@ -1,0 +1,246 @@
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.ficha
+{
+    align-items: center;
+}
+.seccionA,
+.seccionB,
+.seccionC,
+.seccionD,
+.seccionE {
+    width: 123.981mm;
+    border: 0.97pt solid black;
+    padding: 0mm;
+    margin: 0mm;
+    margin-bottom: 0.377mm;
+    box-sizing: border-box;
+    display: grid;
+    gap: 0.5mm; /* Para crear espacio entre elementos */
+}
+.seccionA {
+    height: 13.042mm;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto 1fr auto;
+    padding: 0;
+    font-size: 9pt ;
+    line-height: 13pt;
+    margin-bottom: 0.377mm;
+}
+.logoUNAM {
+    width: 11.809mm;
+    height: 11.302mm;
+    padding-left: 1.525mm;
+    padding-right: 2.372mm;
+}
+.logoFA {
+    width: 11.809mm;
+    height: 11.114mm;
+}
+.logoHEFA {
+    width: 15.03mm;
+    height: 10.713mm;
+    padding-right: 0.765mm;
+}
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+#encabezado {
+    font-size: 9pt ;
+}
+.logoUNAM img,
+.logoFA img,
+.logoHEFA img {
+    width: 100%;
+    height: 100%;
+} 
+.seccionB {
+    height: 8.224mm;
+    font-weight: bold;
+    font-size: 8pt;
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 0.3mm;
+    padding: 0mm;
+    margin-bottom: 0.377mm;
+}
+.fila {
+    display: grid;
+    grid-template-columns: repeat(123,1mm);
+    gap: 0mm;
+    padding: 0mm;
+    margin: 0mm;
+}
+#familia{grid-column: 3/12;}
+#familia2{grid-column: 14/40;}
+#determinador{grid-column: 41/57;}
+#determinador2{grid-column: 58/97;}
+#fecha{grid-column: 99/107;}
+#fecha2{grid-column: 110/123;}
+
+#nombreCientifico{grid-column: 4/25;}
+#nombreCientifico2{grid-column: 27/123; font-style: italic;}
+
+label {
+    font-weight: bold;
+    padding: 0mm;
+    margin: 0mm;
+    border: 0mm;
+    font-size: 8pt;
+    box-sizing: border-box;
+}
+input {
+    height: 9pt;
+    padding: 0mm;
+    margin: 0mm;
+    border: 0mm;
+    font-size: 8pt;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.seccionC {
+    height: 12.153mm;
+    font-size: 5pt;
+    height: 13.042mm;
+    display: grid;
+    padding: 0mm;
+    margin-bottom: 0.377mm;
+    line-height: 13pt;
+}
+
+.filaC {
+    display: grid;
+    grid-template-columns: repeat(123,1mm);
+    grid-template-rows: repeat(3, 4mm);
+    gap: 0mm;
+    padding: 0mm;
+    margin: 0mm;
+    align-items: baseline;
+}
+
+#pais{grid-column: 3/13;}
+#ciudad{grid-column: 14/44;}
+#municipio{grid-column: 45/58;}
+#municipio2{grid-column: 59/123;}
+
+#localidad{grid-column: 3/15;}
+#localidad2{grid-column: 20/123;}
+
+#latitud{grid-column: 3/12;}
+#latitud2{grid-column: 14/34;}
+#longitud{grid-column: 36/47;}
+#longitud2{grid-column: 48/68;}
+#elevacion{grid-column: 69/81;}
+#elevacion2{grid-column: 83/91;}
+#profundidad{grid-column: 92/107;}
+#profundidad2{grid-column: 108/123;}
+ 
+.seccionD {
+    height: 8.216mm;
+    font-size: 8pt;
+    display: grid;
+    padding: 0mm;
+    margin-bottom: 0.377mm;
+    line-height: 10pt;
+}
+
+.filaD {
+    display: grid;
+    grid-template-columns: repeat(123,1mm);
+    grid-template-rows: repeat(2, 4mm);
+    gap: 0mm;
+    padding: 0mm;
+    margin: 0mm;
+    align-items: baseline;
+}
+
+#fechaColecta{grid-column: 3/31;}
+#fechaColecta2{grid-column: 38/59;}
+#duplicado{grid-column: 77/90;}
+#duplicado2{grid-column: 94/99;}
+#seccion{grid-column: 102/113;}
+#seccion2{grid-column: 114/119;}
+
+#colector{grid-column: 3/14;}
+#colector2{grid-column: 15/92;}
+#numColecta{grid-column: 94/111;}
+#numColecta2{grid-column: 112/117;}
+
+.seccionE {
+    height: 49.629mm;
+    font-size: 8pt;
+    display: grid;
+    padding: 0mm;
+    margin: 0mm;  
+    line-height: 13pt;
+}
+
+.filaE {
+    display: grid;
+    grid-template-columns: repeat(123,1mm);
+    grid-template-rows: repeat(12, 4mm);
+    gap: 0mm;
+    padding: 0mm;
+    margin: 0mm;
+    align-items: center;
+}
+
+#formaVida{grid-column: 3/20; grid-row: 1;}
+#formaVida2{grid-column: 26/123; grid-row: 1;}
+
+#habitat{grid-column: 3/12; grid-row: 2;}
+#habitat2{grid-column: 14/123; grid-row: 2;}
+
+#asociacionVegetal{grid-column: 3/25; grid-row: 3;}
+#asociacionVegetal2{grid-column: 26/123; grid-row: 3;}
+
+#caracteristicasEjemplar{grid-column: 3/35; grid-row: 4;}
+#caracteristicasEjemplar2{grid-column: 38/123; grid-row: 4;}
+
+#caracteristicasHoja{grid-column: 3/123; grid-row: 5;}
+#caracteristicasTextura{grid-column: 3/123; grid-row: 6;}
+#caracteristicasInflorescencia{grid-column: 3/123; grid-row: 7;}
+#caracteristicasAroma{grid-column: 3/123; grid-row: 8;}
+#caracteristicasFruto{grid-column: 3/123; grid-row: 9;}
+
+#nombreComun{grid-column: 3/21; grid-row: 10;}
+#nombreComun2{grid-column: 26/80; grid-row: 10;}
+
+#h{grid-column: 85/87; grid-row: 10; font-weight: normal;  align-items: center;}
+#h2{grid-column: 88/93; grid-row: 10;}
+#f{grid-column: 95/97; grid-row: 10; font-weight: normal;}
+#f2{grid-column: 98/103; grid-row: 10;}
+#fr{grid-column: 105/107; grid-row: 10; font-weight: normal;}
+#fr2{grid-column: 108/113; grid-row: 10;}
+#t{grid-column: 115/117; grid-row: 10; font-weight: normal;}
+#t2{grid-column: 118/123; grid-row: 10;}
+
+.centrado {
+    align-self: center; /* Asegura que estos elementos se alineen en el centro verticalmente */
+    vertical-align: middle; /* Alineación vertical al medio */
+}
+
+#observaciones{grid-column: 3/21; grid-row: 11;}
+#observaciones2{grid-column: 26/123; grid-row: 11;}
+
+#colectores{grid-column: 3/14; grid-row: 12;}
+#colectores2{grid-column: 14/67; grid-row: 12;}
+#captura{grid-column: 69/80; grid-row: 12;}
+#captura2{grid-column: 82/123; grid-row: 12;}
+
+.ficha {
+    width: fit-content;
+    height: fit-content;
+    border: 1pt solid rgb(255, 208, 0);
+    padding: 0mm;
+    margin: 0mm;
+    box-sizing: border-box;
+}
